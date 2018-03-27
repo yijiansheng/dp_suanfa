@@ -21,6 +21,8 @@ NUM_STEP = 35
 input_data = tf.placeholder(tf.int32, [BATCH_SIZE, NUM_STEP])
 print(input_data)
 
+
+
 embedding = tf.get_variable("embedding", [VOCAB_SIZE, HIDDEN_SIZE])
 print(embedding)
 ## 从embedding 找到
